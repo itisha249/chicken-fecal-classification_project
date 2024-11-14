@@ -1,9 +1,11 @@
 artifacts_root: 'artifacts'
+
 data_ingestion:
   root_dir: 'artifacts/data_injection'
   source_url: 'https://github.com/itisha249/chicken-fecal-classification_project/raw/refs/heads/main/archive%20(1).zip'
   local_data_file: 'artifacts/data_injection/data.zip'
   unzip_dir: 'artifacts/data_injection'
+
 prepare_base_model:
   root_dir: 'artifacts/prepare_base_model'
   base_model_path: 'artifacts/prepare_base_model/base_model.h5'
