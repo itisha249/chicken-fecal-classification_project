@@ -1,9 +1,9 @@
-# key:val
+AUGMENTATION: True
+IMAGE_SIZE: [224,224,3]
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 1
+CLASSES: 2
+WEIGHTS: imaganet
+LEARNING_RATE: 0.01
 
-# param.yaml
-parameters:
-  key1: value1
-  key2: value2
-  key3:
-    subkey1: subvalue1
-    subkey2: subvalue2
